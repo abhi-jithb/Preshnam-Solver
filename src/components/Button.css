@@ -1,0 +1,50 @@
+/* General button styling */
+.button {
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  
+  /* Primary button styling */
+  .button.primary {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .button.primary:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+  }
+  
+  /* Secondary button styling */
+  .button.secondary {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .button.secondary:hover {
+    background-color: #388e3c;
+    transform: scale(1.05);
+  }
+  
+  /* Disabled button styling */
+  .button.disabled {
+    background-color: #bdbdbd;
+    color: #757575;
+    cursor: not-allowed;
+  }
+  
+  /* Custom size or additional class styling */
+  .button.small {
+    padding: 10px 20px;
+  }
+  
+  .button.large {
+    padding: 20px 40px;
+  }
+  

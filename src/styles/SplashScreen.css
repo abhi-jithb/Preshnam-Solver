@@ -1,0 +1,27 @@
+/* SplashScreen.css */
+.splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff; /* Change the background color if needed */
+  }
+  
+  .splash-logo {
+    width: 150px; /* Adjust logo size */
+    height: auto;
+    animation: logoAnimation 2s infinite; /* Add animation for the logo if desired */
+  }
+  
+  @keyframes logoAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
